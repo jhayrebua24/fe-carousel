@@ -3,14 +3,9 @@ import Page from "modules";
 
 export default function Home(): JSX.Element {
   return (
-    <div>
+    <div className="flex flex-col min-w-screen min-h-screen">
       <Head>
-        <title>Jesson Jei Rebua - Fullstack Web Developer</title>
-        <meta
-          name="description"
-          content="Fullstack Web Developer based from the philippines."
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>FE exam</title>
         <meta charSet="UTF-8" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
