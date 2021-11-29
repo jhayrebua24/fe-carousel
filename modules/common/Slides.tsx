@@ -7,7 +7,7 @@ function Slides(): JSX.Element {
   return (
     <div className="w-full max-w-7xl">
       <Swiper
-        spaceBetween={20}
+        spaceBetween={75}
         speed={500}
         wrapperTag="div"
         breakpoints={{
